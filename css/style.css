@@ -494,6 +494,12 @@ box-sizing: border-box;
     z-index: 1;
     
 }
+.devices_item
+{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 /* Section service */
 
 .wedo
@@ -1387,6 +1393,17 @@ box-sizing: border-box;
     .section_item
     {
         margin-left: 15px;
+    }
+
+    .devices
+    {
+        max-width: 320px;
+        left: 0;
+ 
+    }
+    .device--iphone
+    {
+        width: 180px;
     }
 }
 
