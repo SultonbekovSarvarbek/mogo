@@ -506,15 +506,24 @@ box-sizing: border-box;
 {
     display: flex;
     padding-bottom: 120px;
+    margin: 0 -10px;
+    flex-wrap: wrap;
 
-    
+
 }
 .wedo_item
 {
   width: 50%;
   cursor: pointer;
- 
+  padding: 0 10px;
+  
+}
 
+.wedo_img
+{
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
 .accordion
@@ -1399,11 +1408,26 @@ box-sizing: border-box;
     {
         max-width: 320px;
         left: 0;
+        justify-content: center;
  
     }
     .device--iphone
     {
         width: 180px;
+    }
+
+    .wedo_item
+    {
+        width: 100%;
+       
+    }
+    .wedo_img
+    {
+        margin-bottom: 20px;
+    }
+    .section_header
+    {
+        margin: 0 auto 20px;
     }
 }
 
