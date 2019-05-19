@@ -1579,6 +1579,14 @@ box-sizing: border-box;
 
 @media (max-width: 425px) /* ------ */
 {
+    .footer_text
+    {
+        margin-bottom: 25px;
+    }
+    .logo_title
+    {
+        margin-bottom: 5px;
+    }
     .sub_title
     {
         font-size: 20px;
