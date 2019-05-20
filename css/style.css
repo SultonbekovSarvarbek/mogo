@@ -606,9 +606,10 @@ box-sizing: border-box;
 
 .accordion
 {
-    margin-top: 1px;
+    margin-top: 2px;
   
 }
+
 .accordion_img
 {
     position: absolute;
@@ -663,6 +664,7 @@ box-sizing: border-box;
     font-size: 13px;
     font-style: italic;
     padding: 0px 15px 0px 15px;
+    display: none;
     
 
 }
@@ -673,14 +675,23 @@ box-sizing: border-box;
 }
 .accordion_item
 {
+    transition: .1s linear;
     border: 1px solid #e5e5e5;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.13);
 }
+.accordion_item:hover
+{
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, .2);
+    
+}
+
 .accordion_header
 {   
     position: relative;
     padding: 15px 20px 15px 65px;
-    border-bottom: 1px solid #e5e5e5;
+    
 }
+
 .accordion_header1
 {
     position: relative;
