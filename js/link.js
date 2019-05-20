@@ -62,8 +62,9 @@ $(function()
         
         var $this=$(this), 
             blockId= $(this).data('accordion');
-
             $(blockId).slideToggle();
+        $('.accordion_header').not(this).removeClass('active').next().slideUp();
+
     });
 
 });
