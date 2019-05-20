@@ -36,7 +36,7 @@ box-sizing: border-box;
 .into
 {
     position: relative;
-    min-height: 560px;
+    min-height: 600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
