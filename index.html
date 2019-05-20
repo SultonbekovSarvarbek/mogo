@@ -26,19 +26,25 @@
         <div class="container">
             <div class="header_inner">
 
-                <div class="header_logo">
+                <div class="header_logo" data-scroll="#intro" >
                     MoGo
                 </div>
 
-                <nav class="nav">
-                    <a data-scroll="#about" class="nav_link active " href="#"  >About</a> 
-                    <a data-scroll="#services" class="nav_link" href="#">Services</a>
+                <nav class="nav" id="nav">
+                    <a data-scroll="#about" class="nav_link active" href="#">About</a> 
+                    <a class="nav_link" data-scroll="#services" href="#">Services</a>
                     <a data-scroll="#work" class="nav_link" href="#">Work</a>
                     <a data-scroll="#blog"  class="nav_link" href="#">Blog</a>
                     <a data-scroll="#footer" class="nav_link" href="#">Contacts</a>
                     <a href="#" class="nav_link"><i class="fas fa-cart-plus"></i></a>
                     <a href="#" class="nav_link"><i class="fas fa-search-plus"></i></a>
                 </nav>
+
+                <button class="nav_toggle" id="nav_toggle" type="button">
+                    <span class="nav-toggle_item" >Menu</span>
+                </button>
+
+
             </div>
         </div>
     </header>
