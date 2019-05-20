@@ -48,11 +48,22 @@ $(function()
 
 
     $("#nav_toggle").on("click",function(event)
-    {
-        event.preventDefault();
+    {event.preventDefault();
 
         $("#nav").toggleClass("active");
 
+    });
+
+
+   
+    $("[data-accordion]").on("click",function(event)
+    {
+        event.preventDefault();
+        
+        var $this=$(this), 
+            blockId= $(this).data('accordion');
+
+            $(blockId).slideToggle();
     });
 
 });
