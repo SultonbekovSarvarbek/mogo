@@ -67,4 +67,17 @@ $(function()
 
     });
 
+
+    $("[data-slick]").slick({
+        infinite: true,
+        fade: false,
+        speed: 1000, 
+        slidesToShow: 1,
+        slidesToScroll: 1
+        
+    });
+
+
+      
+
 });
